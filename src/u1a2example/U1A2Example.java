@@ -22,12 +22,20 @@ public class U1A2Example {
         +" is: " + country.length());
         
         //Example 2 : charAt() Method
-        String AWords = "Computer";
+        String AWords = "TeddyBear";
         for(int i = 0; i < AWords.length(); i++) {
           System.out.println(AWords.charAt(i));
         }
         
         //Example 3 : charCodeAt() Method
+        //Unicode : https://unicode-table.com/en/#latin-1-supplement
+        String str = "Dengyunjing!";
+        for(int i = 0; i < str.length(); i++) {
+          System.out.println(str.charAt(i) +" - " + 
+           (int)str.charAt(i));
+        }
+        
+        //
         
     }
     
